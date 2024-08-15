@@ -93,7 +93,7 @@ public class Player : MonoBehaviour
         DisableButtons();
         yield return new WaitForSeconds(2f);
         Enemy enemy = FindObjectOfType<Enemy>().GetComponent<Enemy>();
-        //enemy.Attack(10); // argüman olmasına gerek yok ama olsun belki ilerde fikir açar böyle kalsın
+        //enemy.Attack(10); // argÃ¼man olmasÃ½na gerek yok ama olsun belki ilerde fikir aÃ§ar bÃ¶yle kalsÃ½n
         yield return new WaitForSeconds(0.5f);
         EnableButtons();
 
@@ -122,9 +122,9 @@ public class Player : MonoBehaviour
         head.interactable = false;
     }*/
 
-    public void Deneme() //bu sekilde 4 indisini bire vericez ve yükseltmeleri yapmış olacagiz, bunu kontrol eden bir manager olur
+   /* public void Deneme() //bu sekilde 4 indisini bire vericez ve yÃ¼kseltmeleri yapmÃ½Ã¾ olacagiz, bunu kontrol eden bir manager olur, fikirdi kullanilmadi
     {
         AttackType[0] = AttackType[3];
-    }
+    }*/
 
 }
